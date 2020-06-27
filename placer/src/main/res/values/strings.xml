@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Places Picker</string>
+    <string name="google_maps_key" />
+    <string name="msg_no_location">No Location Set!</string>
+    <string name="txt_location">location</string>
+    <string name="txt_header">Choose Location</string>
+    <string name="txt_btn_done">Done</string>
+    <string name="txt_cannot_find_address">Cannot find Address</string>
+</resources>

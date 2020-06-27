@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Places Picker</string>
+    <string name="err_server">Something went wrong</string>
+    <string name="google_maps_key" />
+</resources>

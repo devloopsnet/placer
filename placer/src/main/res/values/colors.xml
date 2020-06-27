@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0574A8</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#424141</color>
+    <color name="btn_text_color">#FFFFFF</color>
+    <color name="btn_background_color">#00BCD4</color>
+    <color name="color_marker">#00BCD4</color>
+    <color name="btn_clear_color">#00BCD4</color>
+    <color name="btn_back_arrow_color">#FFFFFF</color>
+    <color name="search_area_background_color">#FFFFFF</color>
+    <color name="header_text_color">#FFFFFFFF</color>
+    <color name="header_background_color">#00BCD4</color>
+    <color name="color_progress">#00BCD4</color>
+    <color name="search_txt_color">#000000</color>
+</resources>
