@@ -55,7 +55,7 @@ android{
 * get your google api key (enabled for maps)
 * add google api key in strings.xml with name "google_maps_key". example: <string name="google_maps_key">GOOGLE_API_KEY</string>
 * Simply call `Placer.withActivity(this).show();` in Activity  `Placer.withFragment(this).show();` in Fragment.     
-* receive `address` `LatLng` intent result in onActivityResult.
+* receive `address` `LatLng` intent results in onActivityResult.
 
 ### Example:  
 ```java 
@@ -69,7 +69,8 @@ android{
                     String address = data.getStringExtra("address");
                     LatLng latLng = (LatLng) intent.get("LatLng");
                     if (latLng != null)
-                        Logger.i(Placer.TAG, "Address: " + address + "latLng: " + latLng.latitude + "," + latLng.longitude);
+                        Logger.i(Placer.TAG, "Address: " + address + "latLng: " 
+                                            + latLng.latitude + "," + latLng.longitude);
     
                 }
             }
