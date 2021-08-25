@@ -15,13 +15,13 @@ import androidx.fragment.app.Fragment;
 import com.google.android.gms.maps.model.LatLng;
 
 import net.devloops.placepicker.R;
-import net.devloops.placer.Placer;
+import net.devloops.placer.legacy.location.Placer;
 import net.devloops.placer.util.Logger;
 
 import java.util.Objects;
 
 import static android.app.Activity.RESULT_OK;
-import static net.devloops.placer.Placer.TAG;
+import static net.devloops.placer.legacy.location.Placer.TAG;
 
 public class TestingFragment extends Fragment {
     private TextView txtLocation;

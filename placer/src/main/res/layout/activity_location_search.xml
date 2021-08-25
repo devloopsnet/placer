@@ -28,8 +28,8 @@
                 android:layout_gravity="top"
                 android:layout_marginBottom="35dp"
                 android:background="@drawable/ic_location"
-                android:tint="@color/color_marker"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription"
+                app:tint="@color/color_marker" />
 
         </LinearLayout>
 
@@ -50,7 +50,7 @@
                 android:layout_margin="@dimen/dp_10"
                 android:padding="5dp"
                 android:src="@drawable/back"
-                android:tint="@color/btn_back_arrow_color" />
+                app:tint="@color/btn_back_arrow_color" />
 
             <TextView
                 android:id="@+id/header_text"
@@ -101,8 +101,8 @@
                     android:layout_margin="5dp"
                     android:layout_weight="0.5"
                     android:src="@drawable/ic_close"
-                    android:tint="@color/btn_clear_color"
-                    tools:ignore="ContentDescription" />
+                    tools:ignore="ContentDescription"
+                    app:tint="@color/btn_clear_color" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

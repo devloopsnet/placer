@@ -16,6 +16,11 @@
         android:theme="@style/AppTheme">
 
         <activity
+            android:name=".legacy.location.LocationSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
             android:name=".location.LocationSearchActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

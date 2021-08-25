@@ -35,7 +35,7 @@ public class GooglePlacesAutocompleteAdapter extends ArrayAdapter<String> implem
     private static Context mContext;
     private ArrayList<String> resultList;
 
-    GooglePlacesAutocompleteAdapter(Context context, int textViewResourceId) {
+    public GooglePlacesAutocompleteAdapter(Context context, int textViewResourceId) {
         super(context, textViewResourceId);
         mContext = context;
     }
@@ -91,7 +91,7 @@ public class GooglePlacesAutocompleteAdapter extends ArrayAdapter<String> implem
         return resultList;
     }
 
-    static Location getLocationFromAddress(Context context, String strAddress) {
+   public static Location getLocationFromAddress(Context context, String strAddress) {
         Geocoder coder = new Geocoder(context, Locale.getDefault());
         List<Address> address;
         Location data = new Location("");
